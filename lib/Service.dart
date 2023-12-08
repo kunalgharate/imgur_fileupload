@@ -28,7 +28,7 @@ class Service{
     );
     request.headers.addAll(headers);
     request.fields.addAll({
-      "album":"PDz6rYO",
+      "album":"",
     });
     try {
       var res = await request.send();
